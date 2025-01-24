@@ -95,3 +95,158 @@
   </footer>
 </body>
 </html>
+
+
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.hero .btn.secondary {
+  background: #6c757d;
+}
+
+/* About Section */
+.about {
+  background: #f9f9f9;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+  background: #f4f4f4;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li {
+  margin: 0.5rem 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
